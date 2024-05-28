@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className="container">
-      <ProgressBar step={step} />
+        <ProgressBar step={step} />
       <TransitionGroup component={null}>
         <CSSTransition
           key={step}

@@ -29,4 +29,6 @@ const Step1 = forwardRef(({ data, setData, next }, ref) => {
   );
 });
 
+Step1.displayName = 'Step1'
+
 export default Step1;

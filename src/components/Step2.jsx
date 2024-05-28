@@ -33,4 +33,6 @@ const Step2 = forwardRef(({ data, setData, next, prev }, ref) => {
   );
 });
 
+Step2.displayName = 'Step2'
+
 export default Step2;

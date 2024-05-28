@@ -15,4 +15,6 @@ const Step3 = forwardRef(({ data, prev, submit }, ref) => {
   );
 });
 
+Step3.displayName = 'Step3';
+
 export default Step3;
